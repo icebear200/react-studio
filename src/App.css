@@ -4,6 +4,59 @@
 
 }
 
-.BakeryItem {
-  
+.angie{
+    margin-left: 30%;
+    font-size: x-large;
 }
+.bakeryContainer{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+ }
+
+.shop{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cart{
+    width: 30%;
+    padding: 12px;
+}
+
+
+.itemImage{
+    display: flex;
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+
+}
+
+.itemInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(249, 249, 249);
+    width: 400px;
+    height: 200px;
+}
+
+.infoPadding{
+    padding: 1rem;
+}
+
+.title{
+    font-weight: 700;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
